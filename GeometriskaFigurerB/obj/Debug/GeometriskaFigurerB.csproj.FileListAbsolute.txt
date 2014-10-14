@@ -1,1 +1,6 @@
 C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\GeometriskaFigurerB.exe.config
+C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.csprojResolveAssemblyReference.cache
+C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\GeometriskaFigurerB.exe
+C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\GeometriskaFigurerB.pdb
+C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.exe
+C:\Users\Sonny\c#\lab\1dv402-sk222sw-2-3-geometriska-figurer-b\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.pdb
