@@ -35,7 +35,7 @@ namespace GeometriskaFigurerB
                         shapeArray[i] = new Ellipse(length, width);
                         break;
                     case ShapeType.Rectangle:
-                        shapeArray[i] = new Ellipse(length, width);
+                        shapeArray[i] = new Rectangle(length, width);
                         break;
                 }
             }
@@ -56,7 +56,7 @@ namespace GeometriskaFigurerB
 
             for (int i = 0; i < shapes.Length; i++)
             {
-                Console.WriteLine(shapes[i]);
+                Console.WriteLine(shapes[i].ToString());
             }
         }
 

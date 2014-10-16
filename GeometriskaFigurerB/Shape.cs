@@ -57,8 +57,8 @@ namespace GeometriskaFigurerB
         public override string ToString()
         {
             
-            return string.Format("{}{}{}{}{}",
-            this.GetType, Length, Width, Perimeter, Area);
+            return string.Format("{0}   {1:f1}   {2}   {3}   {4}",
+            this.GetType().Name, Length, Width, Perimeter, Area);
             //Figurens typ ges av metoden GetType(), som ärvs från klassen Object, och 
             //egenskapen Name.
 
