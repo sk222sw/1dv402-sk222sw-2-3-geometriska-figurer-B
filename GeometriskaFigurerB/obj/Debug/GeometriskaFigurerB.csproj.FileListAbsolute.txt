@@ -8,3 +8,5 @@ P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\Geomet
 P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.exe
 P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.pdb
 P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\obj\Debug\GeometriskaFigurerB.csprojResolveAssemblyReference.cache
+P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\GeometriskaFigurerB.exe
+P:\1dv402-sk222sw-2-3-geometriska-figurer-B\GeometriskaFigurerB\bin\Debug\GeometriskaFigurerB.pdb

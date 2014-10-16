@@ -10,7 +10,10 @@ namespace GeometriskaFigurerB
     {
         static void Main(string[] args)
         {
-            
+            Shape[] shapes = RandomizeShapes();
+
+            ViewShapes(shapes);
+
         }
 
         private static Shape[] RandomizeShapes()
@@ -37,6 +40,24 @@ namespace GeometriskaFigurerB
                 }
             }
             return shapeArray;
+        }
+
+        private static void ViewShapes(Shape[] shapes)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~¨~");
+            Console.WriteLine("~\t     Detaljer     \t~");
+            Console.WriteLine("~._._._._._._._._._._._._._._._.~");
+            Console.ResetColor();
+            Console.WriteLine();
+            Console.WriteLine("Figur\tLängd\tBredd\tOmkrets\tArea");
+            Console.WriteLine("============================================");
+
+            for (int i = 0; i < shapes.Length; i++)
+            {
+                Console.WriteLine(shapes[i]);
+            }
         }
 
     }

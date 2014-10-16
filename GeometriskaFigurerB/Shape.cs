@@ -56,29 +56,19 @@ namespace GeometriskaFigurerB
 
         public override string ToString()
         {
-
-            return string.Format("\n Längd  :\t{0}\n Bredd  :\t{1}\n Omkrets:\t{2}\n Area   :\t{3}",
-            Length, Width, Perimeter, Area);
+            
+            return string.Format("{}{}{}{}{}",
+            this.GetType, Length, Width, Perimeter, Area);
             //Figurens typ ges av metoden GetType(), som ärvs från klassen Object, och 
             //egenskapen Name.
 
         }
 
-        //public int CompareTo(object obj)
-        //{
-            //obj = 10;
 
-            //if (obj == null)
-            //{
-            //    return 1;
-            //}
-            //if (obj.GetType != Shape)
-            //{
-            //    throw new ArgumentException();
-            //}
-            //return 0;
 
-            //throw new NotImplementedException();
-        //}
+        public int CompareTo(object obj)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
