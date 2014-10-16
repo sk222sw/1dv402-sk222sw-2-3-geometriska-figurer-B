@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace GeometriskaFigurerB
 {
+    enum ShapeType
+    {
+        Ellipse,
+        Rectangle,
+    }
+
     public abstract class Shape : Object, IComparable
     {
         private double _length;     //representerar en figurs längd.
@@ -54,7 +60,8 @@ namespace GeometriskaFigurerB
             return string.Format("\n Längd  :\t{0}\n Bredd  :\t{1}\n Omkrets:\t{2}\n Area   :\t{3}",
             Length, Width, Perimeter, Area);
             //Figurens typ ges av metoden GetType(), som ärvs från klassen Object, och 
-            //egenskapen Name.
+            //egenskapen Name.
+
         }
 
         //public int CompareTo(object obj)

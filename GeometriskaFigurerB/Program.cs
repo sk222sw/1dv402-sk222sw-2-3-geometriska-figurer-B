@@ -10,14 +10,34 @@ namespace GeometriskaFigurerB
     {
         static void Main(string[] args)
         {
-            DateTime dateTime = new DateTime();
-            Type type = dateTime.GetType();
-            foreach (
-            System.Reflection.PropertyInfo property in
-            type.GetProperties())
-            {
-                Console.WriteLine(property.Name);
-            }
+            
         }
+
+        private static Shape[] RandomizeShapes()
+        {
+            Random random = new Random();
+
+            int numberOfShapes = random.Next(5, 21);
+
+            Shape[] shapeArray = new Shape[numberOfShapes];
+
+            for (int i = 0; i < numberOfShapes; i++)
+            {
+                double length = random.Next(5, 100);
+                double width = random.Next(5, 100);
+                int randomShape = random.Next(0, 2);
+                switch ((ShapeType)randomShape)
+                {
+                    case ShapeType.Ellipse:
+                        shapeArray[i] = new Ellipse(length, width);
+                        break;
+                    case ShapeType.Rectangle:
+                        shapeArray[i] = new Ellipse(length, width);
+                        break;
+                }
+            }
+            return shapeArray;
+        }
+
     }
 }
