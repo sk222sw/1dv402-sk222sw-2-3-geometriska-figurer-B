@@ -56,8 +56,8 @@ namespace GeometriskaFigurerB
 
         public override string ToString()
         {
-            
-            return string.Format("{0}   {1:f1}   {2}   {3}   {4}",
+
+            return string.Format("{0,-10:f1} {1,10:f1}{2,10:f1}{3,10:f1}{4,10:f1}",
             this.GetType().Name, Length, Width, Perimeter, Area);
             //Figurens typ ges av metoden GetType(), som ärvs från klassen Object, och 
             //egenskapen Name.
@@ -68,7 +68,40 @@ namespace GeometriskaFigurerB
 
         public int CompareTo(object obj)
         {
-            throw new NotImplementedException();
+
+            if (obj == null)
+            {
+                return 1;
+            }
+
+            Shape other = obj as Shape;
+            if (other != (Shape)obj)
+            {
+                throw new ArgumentException();
+            }
+
+            return Area.CompareTo(other.Area);
+
+            //if (this.Area > other.Area)
+            //{
+            //    return 1;
+            //}
+
+            //if (this.Area < other.Area)
+            //{
+            //    return -1;
+            //}
+
+            //if (this.Area == other.Area)
+            //{
+            //    return 0;
+            //}
+
+            //else
+            //{
+            //    return 0;
+            //}
+
         }
     }
 }

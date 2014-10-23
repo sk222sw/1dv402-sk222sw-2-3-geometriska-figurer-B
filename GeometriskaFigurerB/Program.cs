@@ -12,8 +12,8 @@ namespace GeometriskaFigurerB
         {
             Shape[] shapes = RandomizeShapes();
 
+            Array.Sort(shapes);
             ViewShapes(shapes);
-
         }
 
         private static Shape[] RandomizeShapes()
@@ -51,14 +51,13 @@ namespace GeometriskaFigurerB
             Console.WriteLine("~._._._._._._._._._._._._._._._.~");
             Console.ResetColor();
             Console.WriteLine();
-            Console.WriteLine("Figur\tLängd\tBredd\tOmkrets\tArea");
-            Console.WriteLine("============================================");
+            Console.WriteLine("Figur\t\tLängd\t Bredd\t Omkrets      Area");
+            Console.WriteLine("==================================================");
 
             for (int i = 0; i < shapes.Length; i++)
             {
                 Console.WriteLine(shapes[i].ToString());
             }
         }
-
     }
 }
